@@ -1,0 +1,20 @@
+1. Write a Python program to calculate the sum of two numbers entered by the user.
+2. Develop a Python program to find the area of a circle when the radius is entered by the user.
+3. Create a Python program to convert temperature from Celsius to Fahrenheit.
+4. Design a Python program to convert distance from kilometers to miles.
+5. Implement a Python program to determine the factorial of a number provided by the user.
+6. Write a Python program to check whether a given number is even or odd.
+7. Develop a Python program to check if a given year is a leap year.
+8. Create a Python program to determine the largest among three numbers entered by the user.
+9. Design a Python program to swap two numbers without using a temporary variable.
+10. Implement a Python program to find the square root of a given number.
+11. Write a Python program to generate the Fibonacci sequence up to a specified number of terms.
+12. Develop a Python program to check if a given string is a palindrome.
+13. Create a Python program to count the number of vowels in a given string.
+14. Design a Python program to reverse a string entered by the user.
+15. Implement a Python program to sort a list of integers entered by the user in ascending order.
+16. Write a Python program to calculate the area of a rectangle when the length and width are provided by the user.
+17. Develop a Python program to check if a given number is a prime number.
+18. Create a Python program to find the maximum and minimum elements in a list entered by the user.
+19. Design a Python program to calculate the factorial of a number using recursion.
+20. Implement a Python program to find the GCD (Greatest Common Divisor) of two numbers entered by the user.

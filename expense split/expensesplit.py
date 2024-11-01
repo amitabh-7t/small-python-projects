@@ -1,11 +1,7 @@
 def expense_splitter(no_of_people, price):
     total_expense = price
-    splitted_expense = total_expense / no_of_people
-    return splitted_expense
-
-
-        
-
+    split_expense = total_expense / no_of_people
+    return split_expense
 
 def main():
     while True:  # Loop until valid inputs are given
@@ -14,17 +10,17 @@ def main():
             price = float(input("Enter the total expense: "))
             currency = "INR"
             distribution ={}
-            sum=0
+            total_sum=0
             print("enter the split percentage for ")
             for distri in range(no_of_people) :
                 key = distri
                 value = float(input(f"person {distri+1} :"))
                 value = price * (value/100)
                 distribution[key] = value
-                sum = sum+value
+                total_sum = total_sum + value
 
             print("----- - -- --- -- - -----")
-            if sum == price :
+            if total_sum == price :
                 for key, value in distribution.items():
                     print(f"person {key+1} will pay {currency} {value} ")  # Prints each key-value pair
             else :
